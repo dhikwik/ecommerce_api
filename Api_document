@@ -1,0 +1,28 @@
+page 1
+http://localhost:8210
+list of brand
+http://localhost:8210/brand
+
+list of product
+http://localhost:8210/product
+
+
+list of item wrt product
+http://localhost:8210/items/2
+
+
+list of item wrt brand
+http://localhost:8210/brandItem/2
+
+
+Filter
+
+brand
+http://localhost:8210/filter/3?brand=2
+
+cost
+http://localhost:8210/filter/1?lcost=2000&hcost=5000
+
+
+menuItem
+localhost:8210/menu
